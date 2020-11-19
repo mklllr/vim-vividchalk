@@ -90,8 +90,8 @@ if &background == "light" || has("gui_running")
 else
     hi Normal guibg=Black ctermbg=NONE
 endif
-highlight StatusLine    guifg=Black   guibg=#aabbee gui=bold ctermfg=Black ctermbg=White  cterm=bold
-highlight StatusLineNC  guifg=#444444 guibg=#aaaaaa gui=none ctermfg=Black ctermbg=Grey   cterm=none
+highlight StatusLine    guifg=White   guibg=#080808 gui=bold ctermfg=White ctermbg=Black  cterm=bold
+highlight StatusLineNC  guifg=#eeeeee guibg=#1c1c1c gui=none ctermfg=White ctermbg=Grey   cterm=none
 "if &t_Co == 256
     "highlight StatusLine ctermbg=117
 "else
